@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 50%;
+    height: 100%;
+    padding: 22px;
+    border: 1px solid black;
+    /* background-color: #08AEEA;
+background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%); */
+}
+/* .salutation{
+    align: center;
+} */
+.header{
+    display: flex;
+    margin-bottom: 10px;
+    background-color: rgba(65, 227, 65, 0.411);
+    padding: 10px;
+    border-radius: 10px;
+    /* justify-content:space-between; */
+}
+.header img{
+    width: 40px;
+    height: 40px;
+
+}
+#pic{
+    border-radius: 20px;
+    margin-right: 15px;
+    border: 1px solid gray;   
+
+}
+.options{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    border: 0.8px solid rgba(71, 71, 71, 0.514);
+    box-shadow: 1px 1px 20px;
+    background-color: rgba(171, 170, 170, 0.281);
+    text-align: center;
+      
+    /* gap: 4px; */
+    /* margin-bottom: 15px; */
+}
+.heading{
+    margin: 10px 0px;
+}
+.item{
+    /* margin: auto; */
+    border: 0.8px solid black;
+    padding-left: 90px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 90px;
+}
+#bell{
+    position: relative;
+    top: 0px; left: 470px;
+    margin-top: 8px;
+    width: 20px;
+    height: 20px;
+
+}
+.item img{
+    width: 40px;
+    height: 40px;
+   
+}
+.med{
+    display: flex;
+}
+.record{
+    display: flex;
+    text-align: center;
+}
+.box{
+    border: 1px solid black;
+    width: 100%;
+    margin-top: 5px;
+    padding: 5px;
+}
+#miss{
+    background-color: red;
+    color: white;
+}
+#done{
+    background-color:rgba(16, 200, 16, 0.482);
+}
+.medicine img{
+    width: 30px;
+    height: 30px;   
+}
+.medicine{
+    display: flex;
+    border: 0.5px solid black;
+    box-shadow: 1px 1px 10px;
+    /* padding: 10px 0px 10px; */
+    /* margin: auto; */
+}
+.grid{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.due{
+    border: 1px solid gray;
+    padding: 10px 10px;
+    text-align: center;
+    width: 30%;
+    box-shadow: inset 1px 1px 10px rgba(255, 0, 0, 0.412);
+    
+}
+.data{
+    background-color: rgba(171, 170, 170, 0.281);
+    /* padding-left: 0px; */
+    width: 14%;
+    height: 100%;
+    padding: 5px 10px 5px;
+
+}
+.a p{
+    margin-top: 19px;
+    margin-left: 10px;
+}
+.add{
+    margin-top: 5px;
+    border: 1px solid black;
+    width: 20%;
+    padding: 5px 4px 0px;
+    box-shadow: 1px 1px 5px;
+}
